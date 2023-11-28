@@ -1,0 +1,172 @@
+body{
+    background-color: #fffbfb;
+}
+
+
+
+.container1{
+    background-color:#bed1c1;
+}
+
+.cards1{
+    background-color:#2d2d2ef6 ;
+}
+/* Traning Section Css Work Start */
+.traning{
+    background-color:  #47464b;
+
+}
+._heading__main{
+    color: #fff;
+}
+._themeColor1{
+    color: red;
+}
+
+._stepSection {
+    margin-bottom: 80px
+}
+
+._step__row {
+    align-items: center;
+    margin-bottom: -80px
+}
+
+._step__row:nth-child(2n) ._step__col:nth-child(1) {
+    order: 3
+}
+
+._step__row:nth-child(2n) ._step__col:nth-child(2) {
+    order: 2
+}
+
+
+._step__fig {
+    height: 345px;
+    width: 345px;
+    border: 15px solid #464351;
+    border-radius: 100%;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+._step__fig img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}
+
+
+
+
+._step__noBox {
+    text-align: right
+}
+
+._step__no {
+    display: inline-block;
+    color: #3b3945;
+    font-size: 255px;
+    font-weight: 600
+}
+
+._step__heading {
+    display: block;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px
+}
+
+._step__desc {
+    display: block;
+    color: #c7c7c7;
+    font-size: 18px;
+    line-height: 30px
+}
+
+._step__row:nth-child(2n) ._step__cont {
+    text-align: right
+}
+
+._step__row:nth-child(2n) ._step__noBox {
+    text-align: left
+}
+/*Traning Section CSS Work end...*/
+
+
+
+
+/*Text Card Section */
+
+._textCard__col {
+    margin-top: 30px
+}
+
+
+._textCard {
+    padding: 35px;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    height: 100%
+}
+
+._textCard:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #ee3e3e;
+    background: -moz-linear-gradient(left, #ee3e3e 61%, transparent 100%);
+    background: -webkit-linear-gradient(left, #ee3e3e 61%, transparent 100%);
+    background: linear-gradient(to right, #ee3e3e 61%, transparent 100%);
+    border-radius: 10px;
+    left: 0;
+    top: 0;
+    z-index: -1
+}
+
+
+._textCard._textCard__grayOverlay:before {
+    background: #524f60;
+    background: -moz-linear-gradient(left, #524f60 61%, transparent 100%);
+    background: -webkit-linear-gradient(left, #524f60 61%, transparent 100%);
+    background: linear-gradient(to right, #524f60 61%, transparent 100%)
+}
+
+
+._textCard__content {
+    padding-right: 195px
+}
+
+._textCard___heading {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 500
+}
+
+._textCard__fig {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    margin: 0;
+    z-index: -1
+}
+
+._textCard__fig img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    -webkit-transition: transform .5s;
+    -moz-webkit-transition: transform .5s;
+    transition: transform .5s
+}
+
+._textCard:hover ._textCard__fig img {
+    transform: translateX(15px) scale(1.05);
+}

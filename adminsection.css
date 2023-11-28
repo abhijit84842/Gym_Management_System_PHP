@@ -1,0 +1,7 @@
+body{
+    background-image: url(Images/adminsection/adminsection.webp);
+    height: 100vh;
+	background-size: cover;
+    background-position: center;
+    background-color: #d4cece;
+}
